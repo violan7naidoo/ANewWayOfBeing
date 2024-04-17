@@ -54,7 +54,7 @@ export function Letter() {
 
         <div className="grid items-center justify-center gap-2">
           <h2 className="text-3xl font-bold text-white tracking-tighter sm:text-4xl md:text-5xl transform transition-transform hover:transform hover:scale-105 duration-300">
-            If, as you read my words
+            If as you read my words
           </h2>
           <p className="mx-auto max-w-[700px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 transform transition-transform hover:transform hover:scale-105 duration-300">
             you feel that it resonates with something deep within you, then let
