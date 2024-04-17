@@ -63,7 +63,7 @@ const Footer = () => {
             />
             <textarea
               placeholder="Message"
-              rows="4"
+              rows={4}
               className="mb-2 p-2 rounded-md text-black"
             />
             <button

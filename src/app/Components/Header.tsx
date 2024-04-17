@@ -26,13 +26,13 @@ const Header = () => {
             intention here is to bring to the Awareness of people that we can
             bring in the NEW EARTH, that we can together co-create heaven on
             EARTH, when we consciously choose to embrace this NEW WAY of BEING.
-            In this project, we will intend to infiltrate?? no, let's not use
-            this word infiltrate because it reeks of the old way of Being,
+            In this project, we will intend to infiltrate?? no, let&apos;s not
+            use this word infiltrate because it reeks of the old way of Being,
             Right? Instead we will use the word FLOW.. we will FLOW into all
             areas of life. ..the home... the school ...the business ...the
             industries ... the government.... the work force and so on . We will
             allow our EGOs to rest now and allow our Divine Souls to consciously
-            lead the way. Our intention will be to realize (to make it real!)
+            lead the way. Our intention will be to realize - to make it real!-
             that we are all ONE and that as we embrace this NEW WAY OF BEING, we
             can live together in LOVE, in PEACE, in Joy in HARMONY and most of
             all in GRATITUDE for this wondrous gift of LIFE.

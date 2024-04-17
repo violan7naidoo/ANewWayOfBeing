@@ -9,7 +9,7 @@ import AboutUs from "../Components/AboutUs";
 import Services from "../Components/Services";
 import Footer from "../Components/Footer";
 import Hero from "../../components/component/hero";
-import Feature from "../../components/component/feature";
+// import Feature from "../../components/component/feature";
 import Gallery from "../../components/component/gallery";
 
 const HomeS = () => {

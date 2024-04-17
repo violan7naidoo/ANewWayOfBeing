@@ -32,18 +32,21 @@ export function Letter() {
             our Divine Souls to consciously lead the way.
           </p>
           <p className="mx-auto max-w-[700px] text-white md:text-lg lg:text-xl dark:text-gray-400 hover:text-gray-200 transform transition-transform hover:transform hover:scale-105 duration-300">
-            Our intention will be to realize (to make it real!) that we are all
-            ONE and that as we embrace this NEW WAY OF BEING, we can live
+            Our intention will be to realize - to make it real! - that we are
+            all ONE and that as we embrace this NEW WAY OF BEING, we can live
             together in LOVE, in PEACE, in Joy in HARMONY, and most of all in
             GRATITUDE for this wondrous gift of LIFE.
           </p>
         </div>
 
         <div className="mx-auto flex justify-center items-center">
-          <div className="overflow-hidden rounded-xl">
+          <div
+            className="overflow-hidden rounded-xl"
+            style={{ width: "500px", height: "500px" }}
+          >
             <img
               alt="Banner Feature"
-              className="object-cover object-center"
+              className="object-cover object-center h-full w-full"
               src="/10.jpeg"
             />
           </div>
