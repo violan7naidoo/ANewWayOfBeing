@@ -31,3 +31,74 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 4s ease-in-out;
+}
+.animate-fadeIn2 {
+  animation: fadeIn 8s ease-in-out;
+}
+.animate-fadeIn3 {
+  animation: fadeIn 12s ease-in-out;
+}
+.animate-fadeIn4 {
+  animation: fadeIn 16s ease-in-out;
+}
+.animate-fadeIn5 {
+  animation: fadeIn 20s ease-in-out;
+}
+.animate-fadeIn6 {
+  animation: fadeIn 24s ease-in-out;
+}
+.animate-fadeIn7 {
+  animation: fadeIn 28s ease-in-out;
+}
+.animate-fadeIn8 {
+  animation: fadeIn 32s ease-in-out;
+}
+.animate-fadeIn9 {
+  animation: fadeIn 36s ease-in-out;
+}
+.animate-fadeIn10 {
+  animation: fadeIn 40s ease-in-out;
+}
+.animate-fadeIn11 {
+  animation: fadeIn 44s ease-in-out;
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #db810b, #4299e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient1 {
+  background: linear-gradient(to right, #0362fa, #4500f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.slide-up {
+  animation: slideUp 1s ease-in-out forwards;
+}
