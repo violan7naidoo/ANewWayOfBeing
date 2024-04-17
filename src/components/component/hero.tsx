@@ -28,12 +28,7 @@ const Hero = () => {
             >
               A NEW WAY OF BEING
             </a>
-            <a
-              className="block text-white hover:text-gray-200 transition-colors duration-300"
-              href="#"
-            >
-              Open Letter
-            </a>
+
             <a
               className="block text-white hover:text-gray-200 transition-colors duration-300"
               href="#"
