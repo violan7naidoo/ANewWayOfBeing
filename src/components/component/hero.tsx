@@ -24,14 +24,14 @@ const Hero = () => {
           <div className="flex space-x-6">
             <a
               className="block text-white font-semibold hover:text-gray-200 transition-colors duration-300"
-              href="#"
+              href="/"
             >
               A NEW WAY OF BEING
             </a>
 
             <a
               className="block text-white hover:text-gray-200 transition-colors duration-300"
-              href="#"
+              href="/about"
             >
               About Us
             </a>
