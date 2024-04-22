@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import backgroundImage from "../../../public/5.jpeg";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 // import backgroundMusic from "../../../public/dancing.mp3";
 
 function getTitleFromPath(path: string) {
@@ -18,12 +18,15 @@ function getTitleFromPath(path: string) {
 
 const Hero = () => {
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
+  const [pageTitle, setPageTitle] = useState("Welcome");
+
+  useEffect(() => {
+    setPageTitle(getTitleFromPath(window.location.pathname));
+  }, []);
 
   const toggleDropdown = () => {
     setIsDropdownVisible(!isDropdownVisible);
   };
-
-  const pageTitle = getTitleFromPath(window.location.pathname);
 
   return (
     <>
