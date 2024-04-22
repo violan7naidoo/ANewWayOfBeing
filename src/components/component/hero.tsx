@@ -3,12 +3,27 @@ import backgroundImage from "../../../public/5.jpeg";
 import React, { useState } from "react";
 // import backgroundMusic from "../../../public/dancing.mp3";
 
+function getTitleFromPath(path: string) {
+  switch (path) {
+    case "/about":
+      return "About";
+    case "/meditation":
+      return "Meditation";
+
+    // Add more cases for other pages as needed
+    default:
+      return "Welcome";
+  }
+}
+
 const Hero = () => {
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
 
   const toggleDropdown = () => {
     setIsDropdownVisible(!isDropdownVisible);
   };
+
+  const pageTitle = getTitleFromPath(window.location.pathname);
 
   return (
     <>
@@ -47,10 +62,10 @@ const Hero = () => {
                 <ul className="absolute text-gray-800 bg-white shadow-lg py-2 px-4 mt-2 rounded-lg">
                   <li>
                     <a
-                      href="#"
+                      href="/meditation"
                       className="block hover:bg-gray-200 py-1 px-2 rounded-md"
                     >
-                      Mindfulness
+                      Exercise 1
                     </a>
                   </li>
                   <li>
@@ -84,7 +99,7 @@ const Hero = () => {
 
         <div className="flex flex-col items-center justify-center h-[calc(100vh-64px)]  ">
           <h1 className="text-2xl font-bold block text-[#983cc2]  bg-white bg-opacity-80 p-4 mb-4 animate-fadeIn2 transform transition-transform hover:transform hover:scale-105 hover:bg-gray-100 rounded-xl">
-            Welcome to A NEW WAY OF BEING
+            {pageTitle}
           </h1>
         </div>
       </div>
