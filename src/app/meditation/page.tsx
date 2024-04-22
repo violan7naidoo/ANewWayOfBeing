@@ -27,8 +27,7 @@ export default function Meditation() {
               So I will be sharing these exercises for you to do on a daily
               basis. You will need to remind youself to be fully present,
               conscious & aware during these exercises. You will also need your
-              journal to record your experiences. Ok... & let's begin.....
-              ready?
+              journal to record your experiences. Ok... & lets begin..... ready?
             </p>
 
             <div className="mx-auto flex justify-center items-center">

@@ -35,7 +35,7 @@ export default function AboutUs() {
               I am a multidimensional being - and so are you! - here on earth to
               remind you of who you really are. I am eagerly looking forward to
               connect with you so that together we can co-create heaven on
-              Earth. I's about time, don't you think?
+              Earth. It`&apos;s about time, don`&apos;t you think?
             </p>
           </div>
 
