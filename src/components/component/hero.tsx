@@ -6,7 +6,7 @@ import React, { useState, useEffect } from "react";
 function getTitleFromPath(path: string) {
   switch (path) {
     case "/about":
-      return "About";
+      return "About Us";
     case "/meditation":
       return "Meditation";
     case "/exercise2":
