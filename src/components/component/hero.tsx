@@ -18,6 +18,8 @@ function getTitleFromPath(path: string) {
 
 const Hero = () => {
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
+  const [isDropdownVisibleContact, setIsDropdownVisibleContact] =
+    useState(false);
   const [pageTitle, setPageTitle] = useState("Welcome");
 
   useEffect(() => {
@@ -26,6 +28,10 @@ const Hero = () => {
 
   const toggleDropdown = () => {
     setIsDropdownVisible(!isDropdownVisible);
+  };
+
+  const toggleDropdownContact = () => {
+    setIsDropdownVisibleContact(!isDropdownVisibleContact);
   };
 
   return (
@@ -38,7 +44,7 @@ const Hero = () => {
           backgroundSize: "100%",
         }}
       >
-        <nav className="flex justify-between items-center py-4 px-8 shadow-lg rounded-lg  ">
+        <nav className="flex justify-between items-center py-4 px-8 shadow-lg rounded-lg">
           <div className="flex space-x-6">
             <a
               className="block text-white font-semibold hover:text-gray-200 transition-colors duration-300"
@@ -53,6 +59,7 @@ const Hero = () => {
             >
               About Us
             </a>
+
             <div className="relative">
               <a
                 className="block text-white hover:text-gray-200 transition-colors duration-300"
@@ -90,12 +97,44 @@ const Hero = () => {
                 </ul>
               )}
             </div>
-            <a
-              className="block text-white hover:text-gray-200 transition-colors duration-300"
-              href="#"
-            >
-              Contact
-            </a>
+
+            <div className="relative">
+              <a
+                className="block text-white hover:text-gray-200 transition-colors duration-300"
+                href="#"
+                onClick={toggleDropdownContact}
+              >
+                Embrace
+              </a>
+              {isDropdownVisibleContact && (
+                <ul className="absolute text-gray-800 bg-white shadow-lg py-2 px-4 mt-2 rounded-lg">
+                  <li>
+                    <a
+                      href="/embrace"
+                      className="block hover:bg-gray-200 py-1 px-2 rounded-md"
+                    >
+                      A new Way of Being
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/innocence"
+                      className="block hover:bg-gray-200 py-1 px-2 rounded-md"
+                    >
+                      Your Innocence
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="/contact-option3"
+                      className="block hover:bg-gray-200 py-1 px-2 rounded-md"
+                    >
+                      Contact Option 3
+                    </a>
+                  </li>
+                </ul>
+              )}
+            </div>
           </div>
           <div className="flex space-x-4"></div>
         </nav>
