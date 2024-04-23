@@ -126,10 +126,10 @@ const Hero = () => {
                   </li>
                   <li>
                     <a
-                      href="/contact-option3"
+                      href="/technology"
                       className="block hover:bg-gray-200 py-1 px-2 rounded-md"
                     >
-                      Contact Option 3
+                      Technology
                     </a>
                   </li>
                 </ul>
