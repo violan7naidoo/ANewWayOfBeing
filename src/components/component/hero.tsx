@@ -9,6 +9,14 @@ function getTitleFromPath(path: string) {
       return "About";
     case "/meditation":
       return "Meditation";
+    case "/exercise2":
+      return "Exercise 2";
+    case "/embrace":
+      return "Embrace A New Way of Being ";
+    case "/innocence":
+      return "Embrace Your Innocence";
+    case "/technology":
+      return "Technology is GOD???";
 
     // Add more cases for other pages as needed
     default:
@@ -84,14 +92,6 @@ const Hero = () => {
                       className="block hover:bg-gray-200 py-1 px-2 rounded-md"
                     >
                       Exercise 2
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/embrace"
-                      className="block hover:bg-gray-200 py-1 px-2 rounded-md"
-                    >
-                      Embrace
                     </a>
                   </li>
                 </ul>

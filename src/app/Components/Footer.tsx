@@ -89,7 +89,16 @@ const Footer = () => {
           Exercise 2
         </a>
         <a href="/embrace" className="text-gray-300 hover:text-gray-200 mr-4">
-          Embrace
+          Embrace A New Way of Being
+        </a>
+        <a href="/innocence" className="text-gray-300 hover:text-gray-200 mr-4">
+          Embrace Your Innocence
+        </a>
+        <a
+          href="/technology"
+          className="text-gray-300 hover:text-gray-200 mr-4"
+        >
+          Technology is GOD???
         </a>
         {/* Add links to two other pages */}
       </div>

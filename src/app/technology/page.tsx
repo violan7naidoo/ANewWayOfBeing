@@ -102,11 +102,19 @@ export default function technology() {
               </div>
             </div>
             <p className="px-10 mx-auto max-w-[900px] text-white md:text-lg lg:text-xl dark:text-gray-400 hover:text-gray-200 transform transition-transform hover:transform hover:scale-105 duration-300">
-              dwdw
+              Is it not true now for you to reclaim your TRUTH?. It&amp;s time
+              to Live your TRUTH and it&amp;s time to be TRUE to who you really
+              are.
             </p>
             <p className="px-10 mx-auto max-w-[900px] text-white md:text-lg lg:text-xl dark:text-gray-400 hover:text-gray-200 transform transition-transform hover:transform hover:scale-105 duration-300">
-              dwdw
+              You are the Gods. Take back your POWER now and then commit to
+              being co-creators togther to bring heaven on Earth.
             </p>
+            <div className="grid items-center justify-center gap-2">
+              <h2 className="text-3xl font-bold text-white tracking-tighter sm:text-4xl md:text-5xl mt-5 hover:text-gray-200 duration-300  transform transition-transform hover:transform hover:scale-105 ">
+                AND SO SHALL IT BE !!!
+              </h2>
+            </div>
           </div>
           <br />
         </div>
