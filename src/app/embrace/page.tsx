@@ -3,7 +3,7 @@ import Hero from "../../../src/components/component/hero";
 import Footer from "../Components/Footer";
 import Nav from "../Components/Navbar";
 
-export default function Meditation() {
+export default function Embrace() {
   return (
     <div>
       <Hero />
@@ -11,7 +11,7 @@ export default function Meditation() {
         <div className="w-full grid items-center justify-center gap-4 px-4 sm:px-5 text-center md:px-6 lg:gap-10 animate-fadeIn mt-0 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400">
           <div className="grid items-center justify-center gap-2">
             <h2 className="text-3xl font-bold text-white tracking-tighter sm:text-4xl md:text-5xl mt-5 hover:text-gray-200 duration-300  transform transition-transform hover:transform hover:scale-105 ">
-              Meditation
+              Embrace A New Way Of Being
             </h2>
           </div>
 
@@ -62,14 +62,6 @@ export default function Meditation() {
               body. Take a few more conscious breaths in and out. Remain still
               and silent for a few more moments, then get up and go about your
               day.
-            </p>
-            <p className="px-10 mx-auto max-w-[900px] text-white md:text-lg lg:text-xl dark:text-gray-400 hover:text-gray-200 transform transition-transform hover:transform hover:scale-105 duration-300">
-              With your SOUL firmly anchored unto your body Check in from time
-              to time with you Pronhout the day. SOUL In the evening, foumal
-              your experiences and plot your progress. Place your hand on your
-              heart and thank your beautiful soul for its divine presence in
-              your life. Practice this exercise for 30 consecutive days and
-              observe what happens in your life
             </p>
           </div>
           <br />

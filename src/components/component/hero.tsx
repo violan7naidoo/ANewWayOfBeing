@@ -73,15 +73,15 @@ const Hero = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/exercise2"
                       className="block hover:bg-gray-200 py-1 px-2 rounded-md"
                     >
-                      Guided
+                      Exercise 2
                     </a>
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/embrace"
                       className="block hover:bg-gray-200 py-1 px-2 rounded-md"
                     >
                       Transcendental
