@@ -84,7 +84,7 @@ const Hero = () => {
                       href="/embrace"
                       className="block hover:bg-gray-200 py-1 px-2 rounded-md"
                     >
-                      Transcendental
+                      Embrace
                     </a>
                   </li>
                 </ul>

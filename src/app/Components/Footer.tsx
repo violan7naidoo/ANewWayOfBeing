@@ -75,12 +75,6 @@ const Footer = () => {
           </form>
         </div>
       </div>
-      <div className="container mx-auto px-4 mt-8">
-        <p className="text-center">
-          &copy; {new Date().getFullYear()} A NEW WAY OF BEING. All rights
-          reserved.
-        </p>
-      </div>
       <div className="container mx-auto px-4 mt-4 flex justify-center">
         <a href="/about" className="text-gray-300 hover:text-gray-200 mr-4">
           About
@@ -89,9 +83,21 @@ const Footer = () => {
           href="/meditation"
           className="text-gray-300 hover:text-gray-200 mr-4"
         >
-          Meditation
+          Exercise 1
+        </a>
+        <a href="/exercise2" className="text-gray-300 hover:text-gray-200 mr-4">
+          Exercise 2
+        </a>
+        <a href="/embrace" className="text-gray-300 hover:text-gray-200 mr-4">
+          Embrace
         </a>
         {/* Add links to two other pages */}
+      </div>
+      <div className="container mx-auto px-4 mt-8">
+        <p className="text-center">
+          &copy; {new Date().getFullYear()} A NEW WAY OF BEING. All rights
+          reserved.
+        </p>
       </div>
     </footer>
   );
