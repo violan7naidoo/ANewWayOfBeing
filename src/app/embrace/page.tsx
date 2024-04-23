@@ -35,7 +35,7 @@ export default function Embrace() {
             <div className="mx-auto flex justify-center items-center">
               <div
                 className="overflow-hidden rounded-xl"
-                style={{ width: "500px", height: "500px" }}
+                style={{ width: "430px", height: "500px" }}
               >
                 <img
                   alt="Banner Feature"
